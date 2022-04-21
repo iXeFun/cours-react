@@ -4,7 +4,7 @@ import { UserContext } from './UserContext';
 import { Form, Input, Button, Checkbox } from 'antd';
 
 const Connexion = () => {
-    const { user, setUser } = useContext(UserContext);
+    const { setUser } = useContext(UserContext);
 
     const onFinish = (values) => {
         console.log('Success:', values);
