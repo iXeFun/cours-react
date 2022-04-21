@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { Navigate } from 'react-router-dom';
+import React from 'react';
 import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 

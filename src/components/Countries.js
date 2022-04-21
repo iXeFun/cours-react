@@ -1,4 +1,3 @@
-import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Card from './Card';
 
@@ -9,10 +8,6 @@ const Countries = () => {
     const radios = ["Africa", "America", "Asia", "Europe", "Oceania"];
 
     useEffect(() => {
-        /*axios
-            .get("https://restcountries.com/v3.1/all")
-            .then((res) => setData(res.data));*/
-
         fetch("https://restcountries.com/v3.1/all")
             .then((res) => res.json())
             .then((res) => setData(res));

@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Connexion from './components/Connexion';
 import { UserContext } from './components/UserContext';
 import About from './pages/About';
 import Home from './pages/Home';
